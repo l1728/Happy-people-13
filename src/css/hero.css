@@ -1,96 +1,150 @@
 /* Hero Section */
 
 .hero-container {
-    display: flex;
-    flex-direction: column;
-    border-radius: 30px;
-    background-color: #1D1D1D;
-    padding: 40px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  background-color: #1d1d1d;
+  padding: 40px 20px 0px 20px;
 }
 
 h1 {
-font-size: 40px;
-font-weight: 500;
-line-height: 1.1; /* 110% */
-letter-spacing: -0.04em;
-margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1; /* 110% */
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
 }
 
 .main-title-part {
-    color: #BEA69E;
-font-style: italic;
-font-weight: 400;
+  color: #bea69e;
+  font-style: italic;
+  font-weight: 400;
 }
 
 .hero-par {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .hero-reviews-box {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
 }
 .students-list {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  padding-right: 1px;
 }
 .students-list-item {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 100px;
+border: 2px solid #1D1D1D;
+margin-left: -8px;
+/* background: var(--avatar-user-square-caitlyn-king-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0); */
 }
 .student-img {
 }
 .students-box {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .student-text-box {
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
 }
 
 .student-text-box p {
-    width: 67px;
-    height: 36px auto;
+  width: 67px;
+  font-size: 14px;
+  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.04em;
 }
 
 .horizontal-arrow {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }
 
-.reviews-data-box { 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.reviews-data-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.star-icon { 
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: #BEA69E;
-    margin-right: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 12px;
+.star-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #bea69e;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
 }
 .reviews-par-box {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .reviews-par-box p:first-child {
-    color: rgba(255, 255, 255, 0.50);
-font-size: 14px;
-font-weight: 400;
-line-height: 1.8; /* 128.571% */
-letter-spacing: -0.04em;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8; /* 128.571% */
+  letter-spacing: -0.04em;
 }
 
 .hero-img {
-    margin: auto;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-container {
+    max-width: 768px;
+  }
+
+  h1 {
+    width: 517px;
+    font-size: 60px;
+    line-height: 1.07;
+    letter-spacing: -0.04em;
+  }
+
+  .hero-par {
+    width: 418px;
+  }
+
+  .hero-img {
+    width: 393px;
+    height: 434px;
+  }
+
+  .student-text-box p {
+    width: 82px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-container {
+    max-width: 1280px;
+  }
+
+  h1 {
+    width: 563px;
+    font-size: 64px;
+    font-weight: 500;
+  }
+
+  .hero-par {
+    margin-bottom: 136px;
+  }
 }
