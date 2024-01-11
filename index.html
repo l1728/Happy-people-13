@@ -21,7 +21,7 @@
     <!-- css style -->
     
     <script type="module" crossorigin src="/Happy-people-13/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Happy-people-13/assets/index-c8a43105.css">
+    <link rel="stylesheet" href="/Happy-people-13/assets/index-67e994e3.css">
   </head>
   <body>
     <header class="header">
@@ -29,7 +29,9 @@
     <div class="header-container-mob">
       <div class="header-logo">
         <a href="#" class="header-logo-link">
-          <img src="../img/header-tmp/logo.png" alt="temp logo" />
+          <svg class="logo-icon" width="127" height="20">
+            <use href="../img/icons.svg#icon-logo"></use>
+          </svg>
         </a>
       </div>
 
@@ -67,24 +69,36 @@
       <use href="../img/icons.svg#icon-x-icon"></use>
     </svg>
   </button>
+  <div class="mobile-menu-wrapper">
+    <ul class="mobile-menu__list">
+      <li class="mobile-menu__list-item list-item-active close-menu">
+        <a href="#">About us</a>
+      </li>
+      <li class="mobile-menu__list-item close-menu">
+        <a href="#">Our courses</a>
+      </li>
+      <li class="mobile-menu__list-item close-menu">
+        <a href="#">Our mentors</a>
+      </li>
+      <li class="mobile-menu__list-item close-menu">
+        <a href="#">Reviews</a>
+      </li>
+      <li class="mobile-menu__list-item close-menu">
+        <a href="#">contacts</a>
+      </li>
+    </ul>
 
-  <ul class="mobile-menu__list">
-    <li class="mobile-menu__list-item list-item-active close-menu">
-      <a href="#">About us</a>
-    </li>
-    <li class="mobile-menu__list-item close-menu">
-      <a href="#">Our courses</a>
-    </li>
-    <li class="mobile-menu__list-item close-menu">
-      <a href="#">Our mentors</a>
-    </li>
-    <li class="mobile-menu__list-item close-menu">
-      <a href="#">Reviews</a>
-    </li>
-    <li class="mobile-menu__list-item close-menu">
-      <a href="#">contacts</a>
-    </li>
-  </ul>
+    <div class="mobile-menu-photo-container"></div>
+    <!-- <img
+      class="mobile-menu-img"
+      src="../img/header_menu/menu_mob.webp"
+      alt="Menu photo"
+      srcset="
+        ../img/header_menu/menu_mob@1x.webp 1x,
+        ../img/header_menu/menu_mob@2x.webp 2x
+      "
+    /> -->
+  </div>
 </div>
 
     <main>
