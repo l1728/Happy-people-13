@@ -23,4 +23,17 @@ body {
   min-width: 320px;
   padding: 0 20px;
   margin: 0 auto;
+  margin-bottom: 80px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 32px;
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    padding: 0 100px;
+    margin-bottom: 150px;
+  }
 }
