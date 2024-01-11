@@ -1,0 +1,71 @@
+.sign-up {
+  max-width: 335px;
+}
+
+.form-caption {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  padding-bottom: 20px;
+}
+
+.accent {
+  color: #BEA69E;
+}
+
+.sign-up-text {
+  max-width: 295px;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  margin-bottom: 41px;
+}
+
+.form-field {
+
+}
+
+.form-input,
+.form-message {
+  background-color: transparent;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  min-height: 46px;
+  padding: 14px 18px;
+}
+
+.form-input {
+  margin-bottom: 8px;
+}
+
+.form-message {
+  resize: none;
+  margin-bottom: 40px;
+}
+
+.form-btn {
+  display: flex;
+  width: 100%;
+  padding: 14px 127px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--white, #FFF);
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.form-agreement {
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 12px;
+  line-height: 1.33;
+}
+
+.form-agreement-link {
+  text-decoration: underline;
+}
