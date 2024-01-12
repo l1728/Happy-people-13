@@ -89,3 +89,8 @@
     margin-bottom: 75px;
   }
 }
+@media screen and (min-width: 1760px) {
+  .marquee-inner {
+    width: 199%;
+  }
+}
