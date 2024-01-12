@@ -62,8 +62,8 @@
            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M13.333 8h10.667v10.667"></path>
         </symbol>
         <symbol id="icon-arrow-for-olenka" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M8 24l16-16"></path>
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M13.333 8h10.667v10.667"></path>
-</symbol>
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M8 24l16-16"></path>
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M13.333 8h10.667v10.667"></path>
+        </symbol>
     </defs>
 </svg>
