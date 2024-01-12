@@ -74,8 +74,7 @@
 }
 
 .mentors-pic-emilia {
-  flex-shrink: 1;
-  border-radius: 200px;
+  border-radius: 50%;
   margin: 0 auto;
   background: var(
     --avatar-user-square-brianna-ware-neutral-background,
@@ -85,7 +84,7 @@
   );
 }
 .mentors-pic-alex {
-  border-radius: 200px;
+  border-radius: 50%;
   margin: 0 auto;
   background: var(
     --avatar-user-square-liam-hood-neutral-background,
@@ -95,7 +94,7 @@
   );
 }
 .mentors-pic-mia {
-  border-radius: 200px;
+  border-radius: 50%;
   margin: 0 auto;
   background: var(
     --avatar-user-square-priya-shepard-neutral-background,
@@ -106,7 +105,7 @@
 }
 
 .mentors-pic-eliot {
-  border-radius: 200px;
+  border-radius: 50%;
   margin: 0 auto;
   background: var(
     --avatar-user-square-owen-garcia-neutral-background,
