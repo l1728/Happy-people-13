@@ -1,15 +1,21 @@
 .marquee-infinite {
-  margin-bottom: 80px;
   border-top: 1px solid #ffffff33;
   border-bottom: 1px solid #ffffff33;
   max-width: 100%;
   overflow: hidden;
+  margin-bottom: 40px;
 }
+
 .marquee-inner {
   display: flex;
+  animation-name: marquee-infinite;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  width: 400%;
 }
+
 .marquee-line {
-  flex-shrink: 0;
   color: #bea69e;
   font-size: 28px;
   font-weight: 400;
@@ -19,10 +25,8 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 40px;
-  animation-name: marquee-infinite;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  white-space: nowrap;
+  width: 100%;
 }
 .color_line {
   color: #fff;
@@ -32,21 +36,16 @@
   letter-spacing: -0.56px;
   text-transform: uppercase;
 }
-.marquee-infinite h2 {
-  white-space: nowrap;
-}
+
 @keyframes marquee-infinite {
   0% {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 @media screen and (min-width: 768px) {
-  .marquee-infinite {
-    margin-bottom: 100px;
-  }
   .marquee-line {
     font-size: 40px;
     line-height: 1.25;
@@ -59,12 +58,16 @@
     font-size: 40px;
     line-height: 1.25;
     letter-spacing: -0.8px;
+  }
+  .marquee-inner {
+    animation-duration: 10s;
+    width: 300%;
+  }
+  .marquee-infinite {
+    margin-bottom: 50px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .marquee-infinite {
-    margin-bottom: 150px;
-  }
   .marquee-line {
     font-size: 59px;
     line-height: 1.08;
@@ -77,5 +80,12 @@
     font-size: 59px;
     line-height: 1.08;
     letter-spacing: -1.18px;
+  }
+  .marquee-inner {
+    animation-duration: 12s;
+    width: 200%;
+  }
+  .marquee-infinite {
+    margin-bottom: 75px;
   }
 }
