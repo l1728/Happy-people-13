@@ -1,14 +1,20 @@
 /* Footer */
+
+.footer {
+  padding: 40px 20px 20px 20px;
+
 .footer-container {
   max-width: 375px;
   min-width: 320px;
   padding: 40px 20px 20px 20px;
   margin: 0 auto;
+
 }
 
 .footer-logo {
   margin-bottom: 16px;
   height: 20px;
+
 }
 .logo-icon {
   fill: #fff;
@@ -41,7 +47,9 @@
   align-items: flex-start;
   flex-direction: row;
   gap: 40px;
+
   flex-wrap: wrap;
+
 }
 .social-list {
   display: flex;
@@ -62,6 +70,7 @@
   line-height: normal;
   text-transform: uppercase;
 }
+
 .email-input {
   width: 267px;
   height: 60px;
@@ -95,6 +104,9 @@ input::placeholder {
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
+
+}
+
 }
 /* tabl */
 @media screen and (min-width: 768px) {
@@ -166,3 +178,4 @@ input::placeholder {
     margin-right: 773px;
   }
 }
+
