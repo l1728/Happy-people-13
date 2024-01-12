@@ -1,21 +1,13 @@
 /* Footer */
-
-.footer {
-  padding: 40px 20px 20px 20px;
-}
-
 .footer-container {
   max-width: 375px;
   min-width: 320px;
   padding: 40px 20px 20px 20px;
   margin: 0 auto;
-
 }
-
 .footer-logo {
   margin-bottom: 16px;
   height: 20px;
-
 }
 .logo-icon {
   fill: #fff;
@@ -26,10 +18,8 @@
   margin-bottom: 40px;
   display: flex;
 }
-
 .contacts-list {
   justify-content: space-between;
-
   flex-direction: column;
   align-items: flex-start;
   display: flex;
@@ -42,22 +32,18 @@
   line-height: 18px;
   text-transform: uppercase;
 }
-
 .social-address-wrap {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
   gap: 40px;
-
   flex-wrap: wrap;
-
 }
 .social-list {
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
-
 .footer-nav-list {
   gap: 14px;
   display: flex;
@@ -71,7 +57,6 @@
   line-height: normal;
   text-transform: uppercase;
 }
-
 .email-input {
   width: 267px;
   height: 60px;
@@ -105,10 +90,7 @@ input::placeholder {
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
-
 }
-
-
 /* tabl */
 @media screen and (min-width: 768px) {
   .footer-container {
@@ -117,30 +99,24 @@ input::placeholder {
     flex-wrap: wrap;
     padding: 50px 32px 25px 32px;
   }
-
   .footer-logo {
     margin-bottom: 25px;
   }
-
   .contacts-list {
     justify-content: normal;
     gap: 10px;
   }
-
   .footer-contacts {
     margin-right: 58px;
     margin-bottom: 0;
   }
-
   .social-address-wrap {
     gap: 30px;
   }
-
   .email-input {
     width: 178px;
     margin-left: 47px;
   }
-
   .btn-email {
     margin-bottom: 0;
   }
@@ -148,7 +124,6 @@ input::placeholder {
     font-size: 14px;
     line-height: 18px;
   }
-
   .privacy-policy {
     margin-right: 399px;
     min-width: 171px;
@@ -161,22 +136,17 @@ input::placeholder {
     max-width: 1280px;
     padding: 50px 100px 25px 100px;
   }
-
   .footer-contacts {
     margin-right: 285px;
   }
-
   .social-address-wrap {
     gap: 50px;
   }
-
   .email-input {
     width: 216px;
     margin-left: 135px;
   }
-
   .privacy-policy {
     margin-right: 773px;
   }
 }
-
