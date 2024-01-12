@@ -9,7 +9,7 @@
 .marquee-inner {
   display: flex;
   animation-name: marquee-infinite;
-  animation-duration: 7s;
+  animation-duration: 8s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   width: 400%;
@@ -24,7 +24,7 @@
   text-transform: uppercase;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-right: 40px;
+  padding-right: 20px;
   white-space: nowrap;
   width: 100%;
 }
@@ -52,7 +52,6 @@
     letter-spacing: -0.8px;
     padding-top: 24px;
     padding-bottom: 24px;
-    padding-right: 40px;
   }
   .color_line {
     font-size: 40px;
@@ -60,7 +59,7 @@
     letter-spacing: -0.8px;
   }
   .marquee-inner {
-    animation-duration: 10s;
+    animation-duration: 11s;
     width: 300%;
   }
   .marquee-infinite {
@@ -72,9 +71,6 @@
     font-size: 59px;
     line-height: 1.08;
     letter-spacing: -1.18px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-right: 40px;
   }
   .color_line {
     font-size: 59px;
@@ -91,6 +87,6 @@
 }
 @media screen and (min-width: 1800px) {
   .marquee-inner {
-    width: 200%;
+    width: 195%;
   }
 }
