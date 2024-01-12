@@ -1,21 +1,25 @@
 /* Mentor section */
 
-.our-mentors {
-  background-color: #121212;
-}
-
-@media only screen (max-width: 1280px) {
-  .our-mentors {
-    padding: 0 100px;
-  }
-}
-
 .mentors-title {
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.04em;
   margin-bottom: 40px;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .mentors-title {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mentors-title {
+    font-size: 48px;
+    line-height: 1.12;
+  }
 }
 
 .mentors {
@@ -24,6 +28,13 @@
   font-weight: 500;
   line-height: 1.125;
   letter-spacing: -0.04;
+}
+
+@media screen and (min-width: 768px) {
+  .mentors {
+    font-size: 48px;
+    line-height: 1.12;
+  }
 }
 
 .mentors-list {
@@ -35,6 +46,13 @@
 @media screen and (min-width: 768px) {
   .mentors-list {
     gap: 93px 100px;
+    margin: 0 115px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .mentors-list {
+    margin: 0 auto;
   }
 }
 
@@ -46,6 +64,7 @@
 @media screen and (min-width: 768px) {
   .mentors-item {
     width: calc((100% - 100px * 1) / 2);
+    max-width: 194px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -54,16 +73,47 @@
   }
 }
 
-.mentors-pic {
+.mentors-pic-emilia {
+  flex-shrink: 1;
   border-radius: 200px;
-  border-radius: 200px;
+  margin: 0 auto;
   background: var(
     --avatar-user-square-brianna-ware-neutral-background,
     url(<path-to-image>),
     lightgray 50% / cover no-repeat,
     #e0e0e0
   );
+}
+.mentors-pic-alex {
+  border-radius: 200px;
   margin: 0 auto;
+  background: var(
+    --avatar-user-square-liam-hood-neutral-background,
+    url(<path-to-image>),
+    lightgray 50% / cover no-repeat,
+    #e0e0e0
+  );
+}
+.mentors-pic-mia {
+  border-radius: 200px;
+  margin: 0 auto;
+  background: var(
+    --avatar-user-square-priya-shepard-neutral-background,
+    url(<path-to-image>),
+    lightgray 50% / cover no-repeat,
+    #e0e0e0
+  );
+}
+
+.mentors-pic-eliot {
+  border-radius: 200px;
+  margin: 0 auto;
+  background: var(
+    --avatar-user-square-owen-garcia-neutral-background,
+    url(<path-to-image>),
+    lightgray 50% / cover no-repeat,
+    #e0e0e0
+  );
 }
 
 .mentors-caption {
@@ -79,6 +129,13 @@
   .mentors-caption {
     font-size: 28px;
     line-height: 1.14;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .mentors-caption {
+    font-size: 28px;
+    line-height: 1.14;
+    width: 194px;
   }
 }
 
