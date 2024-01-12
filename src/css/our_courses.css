@@ -111,6 +111,7 @@
 .courses-icon {
   fill: transparent;
   stroke: #777777;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .courses-name {
