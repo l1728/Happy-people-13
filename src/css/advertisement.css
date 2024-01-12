@@ -1,6 +1,7 @@
 .marquee-infinite {
   margin-bottom: 80px;
-  border: 1px solid #ffffff33;
+  border-top: 1px solid #ffffff33;
+  border-bottom: 1px solid #ffffff33;
   max-width: 100%;
   overflow: hidden;
 }
