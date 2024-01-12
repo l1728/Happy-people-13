@@ -199,7 +199,7 @@
 }
 
 .mobile-menu-photo-container {
-  background-image: url(./img/header_menu/menu_mob@2x.webp);
+  background-image: url(../img/header_menu/menu_mob@2x.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -209,7 +209,7 @@
 
 @media screen and (min-width: 768px) {
   .mobile-menu-photo-container {
-    background-image: url(./img/header_menu/menu_tab@1x.webp);
+    background-image: url(../img/header_menu/menu_tab@1x.webp);
     height: 60vw;
   }
 }
