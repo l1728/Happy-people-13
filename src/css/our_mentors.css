@@ -1,10 +1,4 @@
 /* Mentor section */
-@media screen and (min-width: 1280px) {
-  .mentors-container {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
 
 .mentors-title {
   font-size: 28px;
@@ -21,12 +15,26 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .mentors-title {
+    font-size: 48px;
+    line-height: 1.12;
+  }
+}
+
 .mentors {
   color: #bea69e;
   font-size: 28px;
   font-weight: 500;
   line-height: 1.125;
   letter-spacing: -0.04;
+}
+
+@media screen and (min-width: 768px) {
+  .mentors {
+    font-size: 48px;
+    line-height: 1.12;
+  }
 }
 
 .mentors-list {
