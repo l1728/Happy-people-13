@@ -1,3 +1,23 @@
+.section-reviews {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-reviews {
+            padding-top: 50px;
+            padding-bottom: 100px;
+        }
+}
+
+@media only screen and (min-width: 1280px) {
+    .section-reviews {
+            padding-top: 75px;
+            padding-bottom: 150px;
+        }
+}
+
+
 .reviews-title {
     font-size: 28px;
     font-weight: 500;
@@ -10,7 +30,7 @@
         font-size: 48px;
         line-height: 1.12;
     }
-}
+} 
 
 @media only screen and (min-width: 1280px) {
     .reviews-boxs {
@@ -154,3 +174,5 @@
       height: 20px;
     }
 }
+
+
