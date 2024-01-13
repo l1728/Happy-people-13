@@ -67,9 +67,6 @@
   padding-left: 18px;
 }
 
-input::placeholder {
-  opacity: 0.7;
-=======
 .email-input::placeholder {
   color: #121212;
   font-size: 16px;
