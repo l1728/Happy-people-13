@@ -22,13 +22,19 @@
 
 .header-container-mob {
   display: flex;
-  height: 60px;
+  height: 50px;
   padding: 0 20px;
   align-items: center;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   justify-content: space-between;
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container-mob {
+    height: 60px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
