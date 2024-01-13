@@ -116,16 +116,16 @@ justify-content: space-between;
 }
 
 .sign-up-photo-objectiv {
-  padding: 63px 18px;
-  width: 190px;
+  padding: 76px 19px 62px;
+  width: 180px;
   height: 288px;
   border-radius: 1000px;
   background: #BEA69E;
 }
 
 .sign-up-photo-camera {
-  padding: 139px 48px 88px;
-  width: 350px;
+  padding: 156px 50px 88px;
+  width: 340px;
   height: 540px;
   border-radius: 1000px;
   background: #1D1D1D;
