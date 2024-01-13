@@ -1,17 +1,8 @@
-.fix-container {
-  margin-bottom: 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .fix-container {
-    margin-bottom: 40px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .fix-container {
-    margin-bottom: 80px;
-  }
+.header {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 .header-container {
@@ -38,6 +29,12 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   justify-content: space-between;
   width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+  .header-container-mob {
+    padding-left: 50px;
+  }
 }
 
 .header-camera-icon {
