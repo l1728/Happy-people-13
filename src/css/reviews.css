@@ -1,76 +1,116 @@
 .reviews-title {
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: -0.04em;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+}
+
+@media only screen and (min-width: 768px) {
+    .reviews-title {
+        font-size: 48px;
+        line-height: 1.12;
+    }
 }
 
 .review-box {
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 20px;
-  margin-top: 40px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin-top: 40px;
 }
 
+
+
 .student-box {
-  display: flex;
-  gap: 10px;
-  align-items: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .student-title {
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  margin-top: 4px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 4px;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .student-title {
+        line-height: 1.4;
+        /* 140% */
+    }
 }
 
 .students-paragraph {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+    .students-paragraph {
+        font-size: 14px;
+        line-height: 18px;
+        /* 128.571% */
+    }
 }
 
 .reviews-list {
-  display: flex;
-  margin-top: 4px;
-  padding-left: 66px;
-  gap: 0 4px;
+    display: flex;
+    margin-top: 4px;
+    padding-left: 66px;
+    gap: 0 4px;
+}
+
+@media only screen and (min-width: 768px) {
+    .reviews-list {
+        display: inline-flex;
+
+    }
 }
 
 .reviews-list-item {
-  fill: #bea69e;
-  stroke: #bea69e;
-  stroke-width: 1.5;
+    fill: #bea69e;
+    stroke: #BEA69E;
+    stroke-width: 1.5;
 }
 
 .reviews-item-gray {
-  fill: #414141;
-  fill: #fff;
-  fill-opacity: 0.2;
-  stroke: #414141;
-  stroke-width: 1.5;
+    fill: #414141;
+    fill: #fff;
+    fill-opacity: 0.2;
+    stroke: #414141;
+    stroke-width: 1.5;
 }
 
 .student-description {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .reviews-paragraph {
-  margin-top: 20px;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: -0.28px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+    .reviews-paragraph {
+        font-size: 16px;
+        line-height: 20px;
+        /* 125% */
+    }
 }
 
 @media only screen and (max-width: 1279.98px) {
-  .reviews-none {
-    display: none;
-  }
+    .reviews-none {
+        display: none;
+    }
 }
