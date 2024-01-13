@@ -23,3 +23,22 @@ if (menuBtn) {
     backdrop.style.display = 'none';
   });
 }
+
+// scroll to top
+
+const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+scrollToTopBtn.addEventListener('click', function () {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
+});
+
+window.addEventListener('scroll', function () {
+  if (window.scrollY > 300) {
+    scrollToTopBtn.classList.add('visible');
+  } else {
+    scrollToTopBtn.classList.remove('visible');
+  }
+});
