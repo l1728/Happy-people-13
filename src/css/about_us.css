@@ -1,6 +1,8 @@
+
 .fon-us {
   color: #BEA69E;
 }
+
 .about-text {
   padding-bottom: 40px;
   font-size: 28px;
@@ -39,35 +41,41 @@
 }
 
 .school {
-  padding-bottom: 20px;
-  line-height: 18px; 
+  line-height: 1.29; 
 }
 
 @media screen and (min-width: 768px) {
   .school {
-    padding-bottom: 0;
-    line-height: 20px;
+    width: 280px;
+    line-height: 1.25;
     font-size: 16px;
   }
-}
+  }
 
 @media screen and (min-width: 1280px) {
   .school {
-    width: 268px;
+    font-size: 16px;
+  line-height: 1.25;
+  width: 268px;
   }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 @media screen and (min-width: 768px) {
   .text {
-    width: 600px;
     display: flex;
+    flex-direction: row;
     gap: 40px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .text {
-    width: 552px;
     display: flex;
     gap: 20px;
   }
@@ -86,31 +94,13 @@
 @media screen and (min-width: 768px) {
   .courses {
     width: 280px;
-    height: 215px;
+    line-height: 1.25;
     font-size: 16px;
   }
   }
 
   @media screen and (min-width: 1280px) {
     .courses {
-      width: 264px;
-      line-height: 19px;
+    width: 264px;
     }
   }
-  
-
-@media screen and (min-width: 768px) {
-  .about-school {
-    width: 280px;
-    height: 240px;
-  }
-  }
-  
-@media screen and (min-width: 1280px) {
-.about-school {
-  width: 268px;
-  font-size: 16px;
-  line-height: 20px;
-}
-}
-
