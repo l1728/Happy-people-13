@@ -1,25 +1,6 @@
-.about-us {
-  margin-bottom: 80px;
-}
-
-@media screen and (min-width: 768px) {
-  .about-us {
-    margin-bottom: 100px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .about-us {
-    margin-bottom: 150px;
-  }
-}
-
-.fon-us {
-  color: #bea69e;
-}
 
 .about-text {
-  margin-bottom: 40px;
+  padding-bottom: 40px;
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
@@ -28,7 +9,6 @@
 
 @media screen and (min-width: 768px) {
   .about-text {
-    margin-bottom: 50px;
     font-size: 48px;
     line-height: 1.13;
   }
@@ -36,12 +16,12 @@
 
 .camera {
   width: 100%;
-  margin-bottom: 40px;
+ padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .camera {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     width: 704px;
     height: 340px;
   }
@@ -52,22 +32,29 @@
     margin-bottom: 0;
     width: 488px;
     height: 260px;
+    padding-bottom: 0;
   }
 }
 
 .school {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
   .school {
     margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 20px;
+    font-size: 16px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .school {
-    margin-bottom: 0;
+    width: 268px;
+    padding-bottom: 0;
+    font-size: 16px;
+    line-height: 19px;
   }
 }
 
@@ -80,6 +67,7 @@
 
 @media screen and (min-width: 1280px) {
   .text {
+    width: 552px;
     display: flex;
     gap: 20px;
   }
@@ -87,7 +75,40 @@
 
 @media screen and (min-width: 1280px) {
   .desk {
+    width: 1080px;
+    height: 260px;
     display: flex;
     gap: 40px;
   }
+}
+
+@media screen and (min-width: 1280px) {
+  .courses {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .courses {
+    width: 280px;
+    height: 215px;
+    line-height: 20px;
+    font-size: 16px;
+  }
+  }
+
+@media screen and (min-width: 768px) {
+  .about-school {
+    width: 280px;
+    height: 240px;
+  }
+  }
+  
+
+@media screen and (min-width: 1280px) {
+.about-school {
+  width: 268px;
+  font-size: 16px;
+}
 }
