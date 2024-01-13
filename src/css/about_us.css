@@ -1,6 +1,8 @@
+
 .fon-us {
   color: #BEA69E;
 }
+
 .about-text {
   padding-bottom: 40px;
   font-size: 28px;
@@ -39,19 +41,21 @@
 }
 
 .school {
-  line-height: 18px; 
+  line-height: 1.29; 
 }
 
 @media screen and (min-width: 768px) {
   .school {
     width: 280px;
-    line-height: 20px;
+    line-height: 1.25;
     font-size: 16px;
   }
-}
+  }
 
 @media screen and (min-width: 1280px) {
   .school {
+    font-size: 16px;
+  line-height: 1.25;
   width: 268px;
   }
 }
@@ -64,7 +68,6 @@
 
 @media screen and (min-width: 768px) {
   .text {
-    width: 600px;
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -73,7 +76,6 @@
 
 @media screen and (min-width: 1280px) {
   .text {
-    width: 552px;
     display: flex;
     gap: 20px;
   }
@@ -92,15 +94,16 @@
 @media screen and (min-width: 768px) {
   .courses {
     width: 280px;
+    line-height: 1.25;
     font-size: 16px;
   }
   }
 
   @media screen and (min-width: 1280px) {
     .courses {
-      width: 264px;
-      line-height: 20px;
-    line-height: 20px;
+            width: 264px;
+      line-height: 1.25;
+    
     
     }
   }

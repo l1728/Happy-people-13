@@ -1,9 +1,12 @@
+.section-marque {
+  padding-bottom: 40px;
+}
+
 .marquee-infinite {
   border-top: 1px solid #ffffff33;
   border-bottom: 1px solid #ffffff33;
   max-width: 100%;
   overflow: hidden;
-  margin-bottom: 40px;
 }
 
 .marquee-inner {
@@ -62,9 +65,12 @@
     animation-duration: 11s;
     width: 300%;
   }
-  .marquee-infinite {
-    margin-bottom: 50px;
+  .section-marque {
+    padding-bottom: 50px;
   }
+  /* .marquee-infinite {
+    margin-bottom: 50px;
+  } */
 }
 @media screen and (min-width: 1280px) {
   .marquee-line {
@@ -81,9 +87,12 @@
     animation-duration: 12s;
     width: 200%;
   }
-  .marquee-infinite {
-    margin-bottom: 75px;
+  .section-marque {
+    padding-bottom: 75px;
   }
+  /* .marquee-infinite {
+    margin-bottom: 75px;
+  } */
 }
 @media screen and (min-width: 1800px) {
   .marquee-inner {
