@@ -1,9 +1,4 @@
 /* Mentor section */
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-  .mentors-container {
-    padding: 0 108px;
-  }
-}
 
 .mentors-title {
   font-size: 28px;
@@ -48,6 +43,13 @@
   gap: 40px;
   text-decoration: none;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .mentors-list {
+    padding: 0 108px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .mentors-list {
     gap: 93px 100px;
