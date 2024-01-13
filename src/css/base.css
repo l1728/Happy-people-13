@@ -56,6 +56,10 @@ p {
   .container {
     max-width: 1080px;
   }
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1240px;
+  }  
 }
 .section {
   padding: 40px 0;
