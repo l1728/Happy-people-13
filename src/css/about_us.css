@@ -45,6 +45,7 @@
 
 @media screen and (min-width: 768px) {
   .school {
+    width: 280px;
     line-height: 20px;
     font-size: 16px;
   }
@@ -52,8 +53,6 @@
 
 @media screen and (min-width: 1280px) {
   .school {
-    font-size: 16px;
-  line-height: 20px;
   width: 268px;
   }
 }
@@ -91,13 +90,16 @@
 
 @media screen and (min-width: 768px) {
   .courses {
+    width: 280px;
     font-size: 16px;
   }
   }
 
   @media screen and (min-width: 1280px) {
     .courses {
-    line-height: 19px;
-    width: 264px;
+      width: 264px;
+      line-height: 20px;
+    line-height: 20px;
+    
     }
   }
