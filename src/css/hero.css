@@ -7,9 +7,9 @@
 }
 
 @media screen and (min-width: 320px) {
-.hero-sect {
-  padding-right: 20px;
-  padding-left: 20px;
+  .hero-sect {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 
@@ -145,9 +145,13 @@ h1 {
 
 .reviews-par-box p:first-child {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.04em;
+}
+
+.reviews-par-box p:last-child {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.13; /* 112.5% */
   letter-spacing: -0.04em;
 }
 
@@ -198,7 +202,7 @@ h1 {
 
   .student-text-box {
     display: flex;
-    
+
     gap: 8px;
     align-items: center;
   }
@@ -214,7 +218,6 @@ h1 {
 
   .students-list-item:nth-child(2) {
     margin-left: -14px;
-  
   }
 
   .students-list-item:nth-child(3) {
@@ -241,19 +244,15 @@ h1 {
     gap: 8px;
   }
 
-  .reviews-par-box p:first-child {
-    font-size: 16px;
-    line-height: 1.25;
+  .reviews-par-box p:last-child {
+    line-height: 1.25; /* 125% */
   }
 
-.star-icon {
-  width: 50px;
-  height: 50px;
-} 
-
+  .star-icon {
+    width: 50px;
+    height: 50px;
+  }
 }
-
-
 
 @media screen and (min-width: 1280px) {
   .hero-sect {
