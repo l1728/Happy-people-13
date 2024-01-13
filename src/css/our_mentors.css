@@ -62,6 +62,12 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .mentors-list {
+    margin: 0 103px;
+  }
+}
+
 .mentors-item {
   width: 100%;
   text-align: center;
