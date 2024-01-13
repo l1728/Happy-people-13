@@ -1,4 +1,9 @@
 /* Mentor section */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .mentors-container {
+    padding: 0 108px;
+  }
+}
 
 .mentors-title {
   font-size: 28px;
@@ -46,7 +51,6 @@
 @media screen and (min-width: 768px) {
   .mentors-list {
     gap: 93px 100px;
-    margin: 0 115px;
   }
 }
 
@@ -128,6 +132,7 @@
   .mentors-caption {
     font-size: 28px;
     line-height: 1.14;
+    width: 194px;
   }
 }
 @media screen and (min-width: 1280px) {
