@@ -12,6 +12,14 @@
     }
 }
 
+@media only screen and (min-width: 1280px) {
+    .reviews-boxs {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
 .review-box {
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -20,7 +28,21 @@
 }
 
 
+@media only screen and (min-width: 768px) {
+    .review-box {
+        position: relative;
+        margin-right: 32px;
+        margin-left: 32px;
+    }
+}
 
+@media only screen and (min-width: 1280px) {
+    .review-box {
+        
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
 .student-box {
     display: flex;
     gap: 10px;
@@ -68,10 +90,13 @@
 
 @media only screen and (min-width: 768px) {
     .reviews-list {
-        display: inline-flex;
-
+        position: absolute;
+        top: 20px;
+        right: 20px;
     }
 }
+
+
 
 .reviews-list-item {
     fill: #bea69e;
@@ -109,8 +134,15 @@
     }
 }
 
+@media only screen and (min-width: 1280px) {
+    .reviews-paragraph {
+        min-width: 490px;
+    }
+}
+
 @media only screen and (max-width: 1279.98px) {
     .reviews-none {
         display: none;
     }
 }
+
