@@ -66,6 +66,10 @@
   border: transparent;
   padding-left: 18px;
 }
+
+input::placeholder {
+  opacity: 0.7;
+=======
 .email-input::placeholder {
   color: #121212;
   font-size: 16px;
@@ -75,6 +79,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .btn-email {
   width: 60px;
   height: 60px;
