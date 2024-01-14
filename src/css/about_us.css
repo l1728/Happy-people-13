@@ -1,5 +1,5 @@
 .fon-us {
-  color: #BEA69E;
+  color: #bea69e;
 }
 
 .about-text {
@@ -14,12 +14,13 @@
     font-size: 48px;
     letter-spacing: -0.04em;
     line-height: 1.13;
+    line-height: 1.13em;
   }
 }
 
 .camera {
   width: 100%;
- margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -52,17 +53,17 @@
   .school {
     width: 280px;
   }
-  }
+}
 
 @media screen and (min-width: 1280px) {
   .school {
-  width: 268px;
+    width: 268px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .school {
-  width: 314px;
+    width: 314px;
   }
 }
 
@@ -92,23 +93,22 @@
   }
 }
 
-
 @media screen and (min-width: 768px) {
   .courses {
     width: 280px;
   }
-  }
+}
 
-  @media screen and (min-width: 1280px) {
-    .courses {
-            width: 264px;
-            height: 215px;
-      line-height: 1.25;
-    }
+@media screen and (min-width: 1280px) {
+  .courses {
+    width: 264px;
+    height: 215px;
+    line-height: 1.25;
   }
+}
 
-  @media screen and (min-width: 1440px) {
-    .courses {
-            width: 276px;
-    }
+@media screen and (min-width: 1440px) {
+  .courses {
+    width: 276px;
   }
+}
