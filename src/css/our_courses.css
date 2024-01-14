@@ -13,6 +13,7 @@
   line-height: 1.14;
   letter-spacing: -0.04em;
 }
+
 @media only screen and (min-width: 768px) {
   .courses-title,
   .accent {
