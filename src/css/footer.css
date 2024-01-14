@@ -2,14 +2,18 @@
 .footer {
   border-top: solid 1px rgba(255, 255, 255, 0.2);
   background-image: url(../img/footer_backgr/footer-backgr_mob.png);
-background-size: cover;
+  background-size: cover;
 }
-@media only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx), only screen and (min-width: 601px) and (max-width: 1200px) {
+@media only screen and (min-resolution: 144dpi),
+  only screen and (min-resolution: 1.5dppx),
+  only screen and (min-width: 601px) and (max-width: 1200px) {
   .footer {
     background-image: url(../img/footer_backgr/footer-backgr_mob@1x.png);
   }
 }
-@media only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx), only screen and (min-width: 1201px) {
+@media only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx),
+  only screen and (min-width: 1201px) {
   .footer {
     background-image: url(../img/footer_backgr/footer-backgr_mob@2x.png);
   }
@@ -68,6 +72,21 @@ background-size: cover;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  transition: transform 0.2s ease-in-out;
+}
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  color: #bea69e;
+  transform: scale(1.05);
+}
+.social-item {
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-item:hover,
+.social-item:focus {
+  color: #bea69e;
+  transform: scale(1.05);
 }
 .email-input {
   width: 267px;
@@ -119,16 +138,20 @@ input::placeholder {
   .footer {
     background-image: url(../img/footer_backgr/footer-backgr_tab.png);
   }
-  @media only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx), only screen and (min-width: 601px) and (max-width: 1200px) {
-  .footer {
-    background-image: url(../img/footer_backgr/footer-backgr_tab@1x.png);
+  @media only screen and (min-resolution: 144dpi),
+    only screen and (min-resolution: 1.5dppx),
+    only screen and (min-width: 601px) and (max-width: 1200px) {
+    .footer {
+      background-image: url(../img/footer_backgr/footer-backgr_tab@1x.png);
+    }
   }
-}
-@media only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx), only screen and (min-width: 1201px) {
-  .footer {
-    background-image: url(../img/footer_backgr/footer-backgr_tab@2x.png);
+  @media only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx),
+    only screen and (min-width: 1201px) {
+    .footer {
+      background-image: url(../img/footer_backgr/footer-backgr_tab@2x.png);
+    }
   }
-}
   .footer-container {
     display: flex;
     flex-wrap: wrap;
@@ -170,16 +193,20 @@ input::placeholder {
   .footer {
     background-image: url(../img/footer_backgr/footer-backgr_desk.png);
   }
-  @media only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx), only screen and (min-width: 601px) and (max-width: 1200px) {
-  .footer {
-    background-image: url(../img/footer_backgr/footer-backgr_desk@1x.png);
+  @media only screen and (min-resolution: 144dpi),
+    only screen and (min-resolution: 1.5dppx),
+    only screen and (min-width: 601px) and (max-width: 1200px) {
+    .footer {
+      background-image: url(../img/footer_backgr/footer-backgr_desk@1x.png);
+    }
   }
-}
-@media only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx), only screen and (min-width: 1201px) {
-  .footer {
-    background-image: url(../img/footer_backgr/footer-backgr_desk@2x.png);
+  @media only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx),
+    only screen and (min-width: 1201px) {
+    .footer {
+      background-image: url(../img/footer_backgr/footer-backgr_desk@2x.png);
+    }
   }
-}
   .footer-contacts {
     margin-right: 285px;
   }
