@@ -1,29 +1,30 @@
-
 .fon-us {
   color: #BEA69E;
 }
 
 .about-text {
-  padding-bottom: 40px;
+  font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .about-text {
     font-size: 48px;
-    letter-spacing: -0.32px;
+    letter-spacing: -0.04;
+    line-height: 1.13em;
   }
 }
 
 .camera {
   width: 100%;
- padding-bottom: 40px;
+ margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .camera {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     width: 704px;
     height: 340px;
   }
@@ -38,6 +39,15 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .camera {
+    margin-bottom: 0;
+    width: 560px;
+    height: 240px;
+    padding-bottom: 0;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .school {
     width: 280px;
@@ -47,6 +57,12 @@
 @media screen and (min-width: 1280px) {
   .school {
   width: 268px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .school {
+  width: 314px;
   }
 }
 
@@ -65,7 +81,6 @@
 
 @media screen and (min-width: 1280px) {
   .text {
-    max-width: 552px;
     gap: 20px;
   }
 }
@@ -87,8 +102,13 @@
   @media screen and (min-width: 1280px) {
     .courses {
             width: 264px;
+            height: 215px;
       line-height: 1.25;
-    
-    
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .courses {
+            width: 276px;
     }
   }
