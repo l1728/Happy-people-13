@@ -90,7 +90,7 @@ h1 {
 
 .student-img {
   background-color: #1d1d1d;
-  border-radius: 100px;
+  border-radius: 50%;
 }
 .students-box {
   display: flex;
