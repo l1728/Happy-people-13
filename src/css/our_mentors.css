@@ -27,7 +27,7 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1.125;
-  letter-spacing: -0.04;
+  letter-spacing: -0.04em;
 }
 
 @media screen and (min-width: 768px) {
@@ -95,6 +95,7 @@
     #e0e0e0
   );
 }
+
 .mentors-pic-alex {
   border-radius: 50%;
   margin: 0 auto;
@@ -105,6 +106,7 @@
     #e0e0e0
   );
 }
+
 .mentors-pic-mia {
   border-radius: 50%;
   margin: 0 auto;
@@ -143,6 +145,7 @@
     width: 194px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .mentors-caption {
     font-size: 28px;
