@@ -4,7 +4,6 @@
   padding-top: 90px;
   padding-bottom: 80px;
   background-image: url(../img/backgr/Graphic_mob.png);
-  background-size: cover;
   background-attachment: fixed;
 }
 @media screen and (min-width: 320px) {
