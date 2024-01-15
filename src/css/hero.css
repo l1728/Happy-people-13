@@ -197,6 +197,7 @@ h1 {
 
   .hero-par {
     width: 418px;
+    min-height: 54px;
   }
 
   .student-text-box {
