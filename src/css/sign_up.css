@@ -116,11 +116,29 @@ justify-content: space-between;
 }
 
 .sign-up-photo-objectiv {
+  position: relative;
   padding: 76px 19px 62px;
   width: 180px;
   height: 288px;
   border-radius: 1000px;
   background: #BEA69E;
+}
+
+.sign-up-photo-objectiv::after {
+  content: "";
+  position: relative;
+  width: 90%;
+  height: 40%;
+  z-index: 1;
+  box-shadow: -35.562px 17.781px 25.44px 0px rgba(0, 0, 0, 0.26);
+  transform: translate(10%, -160%) scale(0.75);
+  display: block;
+  border-radius: 25%;
+}
+
+.photo-objectiv {
+position: relative;
+z-index: 2;
 }
 
 .sign-up-photo-camera {
