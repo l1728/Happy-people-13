@@ -47,3 +47,24 @@ window.addEventListener('scroll', function () {
     scrollToTopBtn.classList.remove('visible');
   }
 });
+
+// Добавляем класс .typewriter к любому абзацу, и получаем печатающийся текст.
+
+function typeWriter(element, speed) {
+  const text = element.innerHTML;
+  let i = 0;
+  element.innerHTML = '';
+
+  function typing() {
+    if (i < text.length) {
+      element.innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typing, speed);
+    }
+  }
+  typing();
+}
+
+document.querySelectorAll('.typewriter').forEach(el => {
+  typeWriter(el, 30);
+});
