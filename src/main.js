@@ -49,9 +49,12 @@ window.addEventListener('scroll', function () {
   }
 });
 
-// Добавляем класс .typewriter к любому абзацу, и получаем печатающийся текст.
+// печатальщик текста
 
 function typeWriter(element, speed) {
+  if (element.dataset.typingStarted) return;
+  element.dataset.typingStarted = 'true';
+
   const text = element.innerHTML;
   let i = 0;
   element.innerHTML = '';
