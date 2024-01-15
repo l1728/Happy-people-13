@@ -66,6 +66,19 @@ function typeWriter(element, speed) {
   typing();
 }
 
+function onEntry(entry) {
+  entry.forEach(change => {
+    if (change.isIntersecting) {
+      typeWriter(change.target, 30); // последнее знчение это скорость, чемь меньше - тем быстрее)))
+    }
+  });
+}
+
+let options = {
+  threshold: [0.5], // Какая часть элемента должна быть видна, чтоб все сработало :) сейчас - 50% элемента
+};
+let observer = new IntersectionObserver(onEntry, options);
+
 document.querySelectorAll('.typewriter').forEach(el => {
-  typeWriter(el, 30); // последний знак то скорость, чемь меньше - тем быстрее)))
+  observer.observe(el);
 });
