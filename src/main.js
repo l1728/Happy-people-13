@@ -66,5 +66,5 @@ function typeWriter(element, speed) {
 }
 
 document.querySelectorAll('.typewriter').forEach(el => {
-  typeWriter(el, 30);
+  typeWriter(el, 30); // последний знак то скорость, чемь меньше - тем быстрее)))
 });
