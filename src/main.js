@@ -1,3 +1,4 @@
+AOS.init({once: true});
 let menuBtn = document.querySelector('.burger-btn');
 let menu = document.querySelector('.mobile-menu');
 let backdrop = document.querySelector('.mobile-menu-backdrop');
