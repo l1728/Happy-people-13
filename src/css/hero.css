@@ -4,7 +4,6 @@
   padding-top: 90px;
   padding-bottom: 80px;
   background-image: url(../img/backgr/Graphic_mob.png);
-  background-size: cover;
   background-attachment: fixed;
 }
 @media screen and (min-width: 320px) {
@@ -54,6 +53,7 @@ h1 {
 .hero-par {
   font-size: 14px;
   width: 295px;
+  min-height: 72px;
   margin-bottom: 40px;
 }
 
@@ -164,7 +164,6 @@ h1 {
     padding-top: 120px;
     padding-bottom: 100px;
     background-image: url(../img/backgr/Graphic_tab.png);
-    background-size: cover;
   }
 
   @media only screen and (min-resolution: 144dpi),
@@ -196,6 +195,7 @@ h1 {
 
   .hero-par {
     width: 418px;
+    min-height: 54px;
   }
 
   .student-text-box {
