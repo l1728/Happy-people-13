@@ -54,6 +54,7 @@ h1 {
 .hero-par {
   font-size: 14px;
   width: 295px;
+  min-height: 72px;
   margin-bottom: 40px;
 }
 
