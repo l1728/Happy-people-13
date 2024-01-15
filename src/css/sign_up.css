@@ -20,6 +20,7 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   margin-bottom: 41px;
+  min-height: 54px;
 }
 
 .form-input,
@@ -91,6 +92,7 @@ opacity: 0.7;
 
 .sign-up-text {
   min-width: 100%;
+  min-height: 40px;
 }
 
 .form-input,
